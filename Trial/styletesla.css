@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    height: 800px;
+    background: url('car.jpg');
+    background-size:cover;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.tsla{
+    margin-left: 18px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .btn{
+    text-decoration: none;
+    color: black;
+    margin-right: 18px;
+    padding: 10px;
+}
+
+.content{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.links{
+    position:absolute;
+    margin-left: 33%;
+    margin-top: 43%;
+}
+
+.links .custom{
+
+    text-decoration: none;
+    background-color: rgb(65, 66, 66);
+    border: none;
+    width: 280px;
+    height: 45px;
+    color:white;
+    border-radius: 10px;
+    margin-right: 2px;
+    font-weight:bold;
+    
+}
+
+.links .existing{
+    width: 280px;
+    height: 45px;
+    text-decoration: none;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.a1 i{
+    position: absolute;
+    margin-top: 728px;
+    margin-left: 775px;
+    /* margin-top: 750px;
+    margin-left: 578px; */
+}
+.main1{
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin: 0;
+        padding: 0; */
+        width: 100%;
+        height: 1005px;
+        background: url('car2.jpg');
+        background-size:cover; 
+}
+
+.main1 .content1{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 25%;
+}
+
+.content1 h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 50px;
+    
+}
+.links1{
+    position:absolute;
+    margin-left: 35%;
+    margin-top: 55%;
+}
+.links1 .custom{
+
+    text-decoration: none;
+    background-color: rgb(65, 66, 66);
+    border: none;
+    width: 280px;
+    height: 45px;
+    color:white;
+    border-radius: 10px;
+    margin-right: 2px;
+    font-weight:bold;
+    
+}
+
+.links1 .existing{
+    width: 280px;
+    height: 45px;
+    text-decoration: none;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.main2{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    height: 1000px;
+    background: url('car3.jpg');
+    background-size:cover; 
+    margin-top: -50px;
+}
+
+.main2 .content2{
+position: absolute;
+margin-left: 40%;
+margin-top: 12%;
+}
+
+.content2 h1{
+font-size: 50px;
+font-weight: 100;
+margin-left: 50px;
+
+}
+.links2{
+    position:absolute;
+    margin-left: 35%;
+    margin-top: 48%;
+}
+.links2 .custom{
+
+    text-decoration: none;
+    background-color: rgb(65, 66, 66);
+    border: none;
+    width: 280px;
+    height: 45px;
+    color:white;
+    border-radius: 10px;
+    margin-right: 2px;
+    font-weight:bold;
+    
+}
+
+.links2 .existing{
+    width: 280px;
+    height: 45px;
+    text-decoration: none;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.main3{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    height: 1000px;
+    background: url('car4.jpg');
+    background-size:cover; 
+    margin-top: -50px;
+}
+
+.main3 .content3{
+position: absolute;
+margin-left: 40%;
+margin-top: 12%;
+}
+
+.content3 h1{
+font-size: 50px;
+font-weight: 100;
+margin-left: 50px;
+
+}
+.links3{
+    position:absolute;
+    margin-left: 34%;
+    margin-top: 48%;
+}
+.links3 .custom{
+
+    text-decoration: none;
+    background-color: rgb(65, 66, 66);
+    border: none;
+    width: 280px;
+    height: 45px;
+    color:white;
+    border-radius: 10px;
+    margin-right: 2px;
+    font-weight:bold;
+    
+}
+
+.links3 .existing{
+    width: 280px;
+    height: 45px;
+    text-decoration: none;
+    color:black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.main4{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    width: 100%;
+    height: 1000px;
+    background: url('sp1.jpg');
+    background-size:cover; 
+    margin-top: -50px;
+}
+
+.main4 .content4{
+position: absolute;
+margin-left: 35%;
+margin-top: 12%;
+}
+
+.content4 h1{
+font-size: 30px;
+font-weight: 90;
+margin-left: 130px;
+
+}
+
+.content4 p{
+    font-size: 15px;
+    font-weight: 50;
+    margin-left: 100px;
+    
+}
+.links4{
+        position:absolute;
+        margin-left: 34%;
+        margin-top: 48%;
+}
+.links4 .custom{
+    
+        text-decoration: none;
+        background-color: rgb(65, 66, 66);
+        border: none;
+        width: 280px;
+        height: 45px;
+        color:white;
+        border-radius: 10px;
+        margin-right: 2px;
+        font-weight:bold;
+        
+}
+    
+.links4 .existing{
+        width: 280px;
+        height: 45px;
+        text-decoration: none;
+        color:black;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        
+}
+    .main5{
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin: 0;
+        padding: 0; */
+        width: 100%;
+        height: 1000px;
+        background: url('sp22.jpg');
+        background-size:cover; 
+        margin-top: -50px;
+    }
+    
+    .main5 .content5{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 12%;
+    }
+    
+    .content5 h1{
+    font-size: 40px;
+    font-weight: 90;
+    margin-left: 90px;
+    
+    }
+    
+    .content5 p{
+        font-size: 15px;
+        font-weight: 50;
+        margin-top: 3px;
+        margin-left: 65px;
+        
+        }
+    .links5{
+            position:absolute;
+            margin-left: 34%;
+            margin-top: 48%;
+    }
+    .links5 .custom{
+        
+            text-decoration: none;
+            background-color: rgb(65, 66, 66);
+            border: none;
+            width: 280px;
+            height: 45px;
+            color:white;
+            border-radius: 10px;
+            margin-right: 2px;
+            font-weight:bold;
+            
+    }
+        
+    .links5 .existing{
+            width: 280px;
+            height: 45px;
+            text-decoration: none;
+            color:black;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            
+    }
+
+        .main6{
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin: 0;
+            padding: 0; */
+            width: 100%;
+            height: 900px;
+            background: url('lastpic.jpg');
+            background-size:cover; 
+            margin-top: -40px;
+            margin-bottom: 100px;
+        }
+        
+        .main6 .content6{
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 25%;
+
+        }
+        .main6 .content6 h1{
+            font-size: 500;
+            font-weight: 600;
+        }
+        
+        
+        .links6{
+            position:absolute;
+            margin-left: 42%;
+            margin-top: 55%;
+    }
+    .links6 .custom{
+        
+            text-decoration: none;
+            background-color: rgb(65, 66, 66);
+            border: none;
+            width: 280px;
+            height: 45px;
+            color:white;
+            border-radius: 10px;
+            margin-right: 2px;
+            font-weight:bold;
+            
+    }
+  
+.footer {
+    display: flex;
+    align-items: center;
+}
+.footer ul{
+   
+    margin-left: 480px;
+    margin-bottom: 20px;
+}
+.footer ul li{
+    display: inline;
+    text-align: center;
+    margin-left: 5px;
+    
+    
+}
+.footer ul li a {
+ text-decoration: none;
+ color: rgb(87, 91, 91);
+ font-size: 13px;
+ font-weight: 50;
+ 
+}
